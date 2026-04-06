@@ -1,0 +1,22 @@
+# Python packages required to run run_cmaes_func2C.sh
+# Tested for CPU execution. Install via: pip install -r requirements.txt
+
+numpy>=1.23
+scipy>=1.9
+joblib>=1.2
+tqdm>=4.64
+
+# Core ML stack
+torch>=2.0
+gpytorch>=1.11
+
+# JAX + NumPyro for HMC (CPU only)
+jax>=0.4.20
+numpyro>=0.13
+
+# Data and utilities imported by tests/functions/functions.py
+pandas>=1.5
+scikit-learn>=1.1
+
+# Optional, improves memory reporting (safe to omit)
+psutil>=5.9
